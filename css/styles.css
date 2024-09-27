@@ -1,0 +1,12 @@
+.buscador{
+    display: inline-block;
+    background-color: #9fd3c7;
+    font-family: times;
+    color: gray;
+    padding: 50px 20px 100px 20px;
+}
+
+#parrafo1{
+    font-family: times;
+    color: gray;
+}
