@@ -1,12 +1,43 @@
+.header{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    display: flex;
+    justify-content: center;
+    padding: 20px 10px;
+    margin: 0px 0px 10px 0px;
+    background-image: linear-gradient(to left top, white, #9fd3c7);
+}
+
 .buscador{
     display: inline-block;
     background-color: #9fd3c7;
     font-family: times;
     color: gray;
-    padding: 50px 20px 100px 20px;
+    padding: 30px 20px 50px 20px;
 }
 
 #parrafo1{
-    font-family: times;
+    display: inline-block;
     color: gray;
+    padding: 20px;
+    justify-content: auto;
+}
+
+img{
+    padding-top: 10px;
+}
+
+button{
+    display: block;
+}
+
+footer{
+    background-image: linear-gradient(to left top, #9fd3c7, rgba(172, 167, 167, 0.24));
+    padding: 10px;
+    text-align: start;
+}
+
+.copy{
+    text-align: center;
+    color: blue;
 }
