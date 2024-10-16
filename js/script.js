@@ -16,7 +16,7 @@ let inmuebleNuevo5 = new inmuebleNuevo(5, "Casa", "Ov. Lagos 4230", 445000, "./a
 let inmuebleNuevo6 = new inmuebleNuevo(6, "Garage", "Av. 9 de Julio", 20000, "./assets/img/garage1.avif");
 let inmuebleNuevo7 = new inmuebleNuevo(7, "Lote", "Cordoba 150", 35000, "./assets/img/lote1.jpg");
 let inmuebleNuevo8 = new inmuebleNuevo(8, "Casa", "Pellegrini 3000", 78000, "./assets/img/casa3.jpg");
-let inmuebleNuevo9 = new inmuebleNuevo(9, "Departamento", "Urquiza 3200", 35000, "../assets/img/depto4.jpg");
+let inmuebleNuevo9 = new inmuebleNuevo(9, "Departamento", "Urquiza 3200", 35000, "./assets/img/depto4.jpg");
 let inmuebleNuevo10 = new inmuebleNuevo(10, "Casa", "San Martin 700", 74000, "./assets/img/casa2.jpg");
 
 let nuevos = [inmuebleNuevo1, inmuebleNuevo2, inmuebleNuevo3, inmuebleNuevo4, inmuebleNuevo5, inmuebleNuevo6, 
