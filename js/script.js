@@ -8,16 +8,16 @@ function inmuebleNuevo(id, Edificio, Dirección, Precio, Imagen) {
     this.Imagen = Imagen;
 }
 
-let inmuebleNuevo1 = new inmuebleNuevo(1, "Casa", "Santiago 100", 130000, "../assets/img/casa.avif");
-let inmuebleNuevo2 = new inmuebleNuevo(2, "Departamento", "Pasaje 123", 41000, "../assets/img/depto1.jpg");
-let inmuebleNuevo3 = new inmuebleNuevo(3, "Monoambiente", "Oroño 520", 39000, "../assets/img/depto2.jpg");
-let inmuebleNuevo4 = new inmuebleNuevo(4, "Monoambiente", "Santa Fe 3601", 52000, "../assets/img/depto3.avif");
-let inmuebleNuevo5 = new inmuebleNuevo(5, "Casa", "Ov. Lagos 4230", 445000, "../assets/img/casa1.avif");
-let inmuebleNuevo6 = new inmuebleNuevo(6, "Garage", "Av. 9 de Julio", 20000, "../assets/img/garage1.avif");
-let inmuebleNuevo7 = new inmuebleNuevo(7, "Lote", "Cordoba 150", 35000, "../assets/img/lote1.jpg");
-let inmuebleNuevo8 = new inmuebleNuevo(8, "Casa", "Pellegrini 3000", 78000, "../assets/img/casa3.jpg");
+let inmuebleNuevo1 = new inmuebleNuevo(1, "Casa", "Santiago 100", 130000, "./assets/img/casa.avif");
+let inmuebleNuevo2 = new inmuebleNuevo(2, "Departamento", "Pasaje 123", 41000, "./assets/img/depto1.jpg");
+let inmuebleNuevo3 = new inmuebleNuevo(3, "Monoambiente", "Oroño 520", 39000, "./assets/img/depto2.jpg");
+let inmuebleNuevo4 = new inmuebleNuevo(4, "Monoambiente", "Santa Fe 3601", 52000, "./assets/img/depto3.avif");
+let inmuebleNuevo5 = new inmuebleNuevo(5, "Casa", "Ov. Lagos 4230", 445000, "./assets/img/casa1.avif");
+let inmuebleNuevo6 = new inmuebleNuevo(6, "Garage", "Av. 9 de Julio", 20000, "./assets/img/garage1.avif");
+let inmuebleNuevo7 = new inmuebleNuevo(7, "Lote", "Cordoba 150", 35000, "./assets/img/lote1.jpg");
+let inmuebleNuevo8 = new inmuebleNuevo(8, "Casa", "Pellegrini 3000", 78000, "./assets/img/casa3.jpg");
 let inmuebleNuevo9 = new inmuebleNuevo(9, "Departamento", "Urquiza 3200", 35000, "../assets/img/depto4.jpg");
-let inmuebleNuevo10 = new inmuebleNuevo(10, "Casa", "San Martin 700", 74000, "../assets/img/casa2.jpg");
+let inmuebleNuevo10 = new inmuebleNuevo(10, "Casa", "San Martin 700", 74000, "./assets/img/casa2.jpg");
 
 let nuevos = [inmuebleNuevo1, inmuebleNuevo2, inmuebleNuevo3, inmuebleNuevo4, inmuebleNuevo5, inmuebleNuevo6, 
     inmuebleNuevo7, inmuebleNuevo8, inmuebleNuevo9, inmuebleNuevo10];
